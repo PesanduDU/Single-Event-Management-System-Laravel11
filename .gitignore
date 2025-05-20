@@ -1,0 +1,40 @@
+# Laravel
+/vendor/
+/node_modules/
+/public/storage
+/storage/*.key
+/storage/oauth-private.key
+/storage/oauth-public.key
+/storage/debugbar/
+/bootstrap/cache/
+
+# Environment Files
+.env
+.env.*
+!.env.example
+
+# IDE / Editor / OS Files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# Composer / NPM
+composer.lock
+yarn.lock
+npm-debug.log
+package-lock.json
+
+# Laravel Telescope
+storage/telescope/
+
+# Laravel Horizon
+storage/horizon/
+
+# Tests
+phpunit.result.cache
+
+# Logs
+*.log
