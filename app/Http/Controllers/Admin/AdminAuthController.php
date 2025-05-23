@@ -9,6 +9,9 @@ class AdminAuthController extends Controller
 {
     public function login() 
     {
-        return view('admin.login');
+        $metaData = [
+            'title' => 'Admin Login',
+        ];
+        return view('admin.login', $metaData);
     }
 }
