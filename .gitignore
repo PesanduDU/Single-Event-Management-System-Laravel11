@@ -1,40 +1,19 @@
-# Laravel
-/vendor/
-/node_modules/
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
 /public/storage
 /storage/*.key
-/storage/oauth-private.key
-/storage/oauth-public.key
-/storage/debugbar/
-/bootstrap/cache/
-
-# Environment Files
+/vendor
 .env
-.env.*
-!.env.example
-
-# IDE / Editor / OS Files
-.idea/
-.vscode/
-.DS_Store
-Thumbs.db
-*.sublime-project
-*.sublime-workspace
-
-# Composer / NPM
-composer.lock
-yarn.lock
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
 npm-debug.log
-package-lock.json
-
-# Laravel Telescope
-storage/telescope/
-
-# Laravel Horizon
-storage/horizon/
-
-# Tests
-phpunit.result.cache
-
-# Logs
-*.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
